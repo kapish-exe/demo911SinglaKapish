@@ -11,5 +11,15 @@
 
 .responsive {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
+
+  #user-profile-entry{
+    padding: 5em;
+  }
+
+  #reviewCardGroup {
+    height: 400px; /* set a fixed height for the container */
+    overflow-y: auto; /* add vertical scrollbar if content overflows */
+}
+
